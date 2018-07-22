@@ -13,7 +13,9 @@ A small library that validate incoming requests using middleware
 
     router.post('/', validate({ price: 'required|number' }), OrderController.store);
   
+## Validation documentation
 
+  https://indicative.adonisjs.com
 
 ## Tests
 
